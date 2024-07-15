@@ -24,6 +24,8 @@ function App() {
       <div className="w-full flex flex-wrap h-screen  justify-center items-center mx-auto 	 backdrop-blur-sm rounded bg-cover">
         <div className=" px-3 md:w-full ">
           <div className="max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+            <h1 className="text-white py-5 text-center  md:text-2xl font-bold ">Currency Converter Generator</h1>
+
             <form
               onSubmit={(e) => {
                 e.preventDefault();
